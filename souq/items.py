@@ -15,5 +15,6 @@ class SouqItem(scrapy.Item):
     price = scrapy.Field()
     imageLink = scrapy.Field()
     link = scrapy.Field()
+    category = scrapy.Field()
     
     
